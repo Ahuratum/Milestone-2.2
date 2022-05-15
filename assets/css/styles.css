@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Macondo&display=swap');
+
+/* all anchor links */
+a:link{
+    text-decoration: none;
+}
+/* index page  */
+#welcome{
+    font-family: "Dancing Script";
+}
+/* hobby page */
+.gallery_title{
+    font-family: "Indie Flower", arial, helvetica, sans-serif;
+    font-size: 4em;
+}
+#game_gallery{
+    display: flex;
+    width: 100vw;
+}
+.game_gallery_image{
+    height: 75vh;
+    width: 23vw;
+    background-repeat: no-repeat;
+    object-fit:cover;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 250ms;
+}
+.game_gallery_image:hover{
+    transform: translateY(-5px);
+    box-shadow: -10px 10px 10px black;
+}
+#map_pop_up{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 250ms;
+    padding: 50px;
+}
