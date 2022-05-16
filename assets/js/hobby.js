@@ -5,13 +5,10 @@ const map_item=document.getElementById('map_item');
 const hobby_image_vector=[1, 2, 3, 4];
 // hobby page variables, text
 
-// about page variables, images
-const carousel=document.getElementById('carousel-2');
-// about page variables, text
+//-----------------------------------------------------------------------------------
 
 // ensure document is ready before running
-$('#hobby').ready(function() {
-  //----------------------------------------------
+$('#hobby').ready(() => {
   // foreach loop for hobby images
   hobby_image_vector.forEach((i) => {
     const image = document.createElement("img");
@@ -29,7 +26,6 @@ $('#hobby').ready(function() {
     game_gallery.appendChild(image);
     console.log("image loaded into doc");
      });
-    //----------------------------------------------
     //popup close on click
     map_pop_up.addEventListener("click", () => {
         map_pop_up.hidden = true;
@@ -37,8 +33,4 @@ $('#hobby').ready(function() {
         map_pop_up.src = "";
         map_pop_up.alt = "";
     });
-    //----------------------------------------------
 })
-
-
-

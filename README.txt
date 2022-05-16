@@ -16,3 +16,23 @@ Milestone 2:
 - Added navigation tabs on the left side of each page
 
 Link to video 2: 
+
+Milestone 3:
+
+Link to video 3: 
+
+Milestone 4:
+
+Link to video 4: 
+
+Milestone 5:
+
+Link to video 5:
+
+Milestone 6:
+
+Link to video 6: 
+
+Milestone 7:
+
+Link to video 7: 

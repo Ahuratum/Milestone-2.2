@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Macondo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Dancing+Script&family=Indie+Flower&family=Macondo&display=swap');
 
 /* all anchor links */
 a:link{
@@ -47,3 +45,9 @@ a:link{
     padding: 50px;
 }
 /* portfolio page */
+
+
+/* about me */
+#about_title{
+    font-family: "Bitter", "Helvetica Neue";
+}
